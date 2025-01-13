@@ -90,8 +90,8 @@ ul {
   gap: 1rem;
 }
 
-.profile-card__links li {
-    border-radius: 10px;
+.profile-card__links a {
+  border-radius: 10px;
   background-color: var(--grey-700);
   height: 3rem;
   display: flex;
@@ -103,8 +103,8 @@ ul {
   cursor: pointer;
 }
 
-.profile-card__links li:hover,
-.profile-card__links li:active {
+.profile-card__links a:hover,
+.profile-card__links a:active {
   background-color: var(--green);
   color: var(--grey-800);
 }
